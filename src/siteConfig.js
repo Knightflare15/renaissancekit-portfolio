@@ -4,40 +4,40 @@ export const siteConfig = {
   domainUrl: "https://www.renaissancekit.in",
   instagramHandle: "renaissance_kit",
   instagramUrl: "https://instagram.com/renaissance_kit",
-  status: "Portfolio atelier",
+  status: "Software projects by Aryan",
   hero: {
-    title: "Crafted software with a sharp edge and a quiet finish.",
+    title: "Software, games, and AI projects.",
     summary:
-      "Renaissance Kit is a home for elegant interfaces, realtime systems, AI-native products, and projects that balance technical depth with strong visual identity.",
+      "A small portfolio for the projects I care about most right now: a co-op puzzle game, a retrieval-based investigation app, and a Unity project in progress.",
     primaryLabel: "Explore Projects",
     secondaryLabel: "Visit Instagram",
   },
   intro:
-    "Inspired by your logo, the site leans into ivory paper, ink-black geometry, and restrained motion instead of generic startup gradients.",
+    "The logo sets the tone. The site keeps the rest simple: clean layout, clear links, and enough personality without getting in the way.",
   approach: [
     {
-      label: "Design language",
-      value: "Classical editorial meets digital precision",
+      label: "Built with",
+      value: "React, Vite, plain CSS",
     },
     {
-      label: "Frontend",
-      value: "React + Vite with editable content config",
+      label: "Hosted on",
+      value: "Azure Static Web Apps",
     },
     {
-      label: "Deployment",
-      value: "Static and domain-ready for renaissancekit.in",
+      label: "Edit links in",
+      value: "src/siteConfig.js",
     },
     {
-      label: "Editing",
-      value: "Update links and copy in one file",
+      label: "Domain",
+      value: "renaissancekit.in",
     },
   ],
   contactText:
-    "The links below are meant to stay easy to swap. Update this config file whenever your GitHub, trailer, or production URLs change.",
+    "Project links, socials, and domain details all live in one config file, so updating this site later should stay painless.",
   contactLinks: [
     {
       label: "renaissancekit.in",
-      href: "https://tmason.azurewebsites.net/",
+      href: "https://www.renaissancekit.in",
       style: "primary",
     },
     {
@@ -52,9 +52,9 @@ export const siteConfig = {
       category: "Realtime game systems",
       title: "Quattro",
       summary:
-        "A server-authoritative co-op Tetris project built around realtime play, social systems, and a product-grade multiplayer backend.",
-      href: "",
-      cta: "Open Tetris project",
+        "A server-authoritative co-op puzzle game focused on realtime multiplayer, clean game feel, and a backend that does the heavy lifting.",
+      href: "https://github.com/Knightflare15/Tetris",
+      cta: "Open project",
       stats: ["React", "TypeScript", "Node.js", "Socket.IO"],
       accent: "obsidian",
     },
@@ -63,9 +63,9 @@ export const siteConfig = {
       category: "Retrieval-backed experience",
       title: "Investigation Room",
       summary:
-        "A dossier-style AI investigation platform that blends authored cases, retrieval, dialogue, and grounded archive discovery.",
+        "A case-based investigation app that combines retrieval, dialogue, and authored content in a format that feels more like a dossier than a chatbot.",
       href: "https://example.com/replace-with-rag-project-link",
-      cta: "Open RAG project",
+      cta: "Open project",
       stats: ["FastAPI", "RAG", "React", "Ollama"],
       accent: "parchment",
     },
@@ -74,7 +74,7 @@ export const siteConfig = {
       category: "Trailer showcase",
       title: "The Script",
       summary:
-        "A Unity project card reserved for the trailer and the strongest visual slice of the world you are building.",
+        "A Unity project still taking shape. This link is meant for the trailer once you have the strongest visual slice ready to show publicly.",
       href: "https://example.com/replace-with-unity-trailer-link",
       cta: "Watch trailer",
       stats: ["Unity", "C#", "Gameplay", "Trailer"],

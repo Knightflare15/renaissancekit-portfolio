@@ -18,7 +18,7 @@ function App() {
 
         <nav className="site-nav" aria-label="Primary">
           <a href="#work">Work</a>
-          <a href="#atelier">Atelier</a>
+          <a href="#about">About</a>
           <a href="#contact">Contact</a>
         </nav>
       </header>
@@ -68,18 +68,18 @@ function App() {
 
         <section className="marquee" aria-label="Brand statement">
           <div className="marquee__track">
-            <span>Elegant systems</span>
-            <span>AI-native products</span>
-            <span>Realtime gameplay</span>
-            <span>Clean interfaces</span>
-            <span>Strong technical craft</span>
+            <span>React</span>
+            <span>FastAPI</span>
+            <span>RAG</span>
+            <span>Realtime multiplayer</span>
+            <span>Unity</span>
           </div>
         </section>
 
         <section className="section" id="work">
           <div className="section__heading">
             <p className="eyebrow">Selected work</p>
-            <h2>A portfolio shaped like a studio, not a template.</h2>
+            <h2>Projects worth opening, not just listing.</h2>
           </div>
 
           <div className="project-grid">
@@ -110,18 +110,18 @@ function App() {
           </div>
         </section>
 
-        <section className="section atelier" id="atelier">
+        <section className="section atelier" id="about">
           <div className="section__heading">
-            <p className="eyebrow">Atelier</p>
-            <h2>Built to feel composed, tactile, and deliberate.</h2>
+            <p className="eyebrow">About</p>
+            <h2>Built around the logo. Kept simple on purpose.</h2>
           </div>
 
           <div className="atelier__grid">
             <article className="panel panel--statement">
               <p>
-                The logo already suggested the direction: compass geometry, quiet luxury, and a slightly
-                game-like pixel sharpness in the wordmark. The React version pushes that further with layered
-                cards, restrained animation, and a stronger sense of depth.
+                The original static page felt too generic. This version stays visual, but the copy is more direct
+                and the structure is easier to maintain. The goal is to make the work easy to inspect and the
+                links easy to update.
               </p>
             </article>
 
@@ -141,7 +141,7 @@ function App() {
         <section className="section contact" id="contact">
           <div className="section__heading">
             <p className="eyebrow">Contact</p>
-            <h2>Keep the presentation refined. Keep the maintenance simple.</h2>
+            <h2>Domain, socials, and project links.</h2>
           </div>
 
           <div className="contact__panel">
