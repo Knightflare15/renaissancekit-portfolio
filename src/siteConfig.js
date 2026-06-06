@@ -52,9 +52,15 @@ export const siteConfig = {
       category: "Realtime game systems",
       title: "Quattro",
       summary:
+<<<<<<< HEAD
         "A server-authoritative co-op puzzle game focused on realtime multiplayer, clean game feel, and a backend that does the heavy lifting.",
       href: "https://github.com/Knightflare15/Tetris",
       cta: "Open project",
+=======
+        "A server-authoritative co-op Tetris project built around realtime play, social systems, and a product-grade multiplayer backend.",
+      href: "tmason.azurewebsites.net",
+      cta: "Open Tetris project",
+>>>>>>> f38cb511ad5c4bc9545470e53eef443133ee5ab1
       stats: ["React", "TypeScript", "Node.js", "Socket.IO"],
       accent: "obsidian",
     },
