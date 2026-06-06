@@ -79,5 +79,16 @@ export const siteConfig = {
       stats: ["Unity", "C#", "Gameplay", "Trailer"],
       accent: "compass",
     },
+    {
+      key: "sentri-ot",
+      category: "OT security platform",
+      title: "Sentri OT",
+      summary:
+        "A BMS and OT security project focused on passive discovery, compliance reporting, and making operational risk visible without disrupting the network.",
+      href: "https://example.com/replace-with-sentri-ot-link",
+      cta: "Open project",
+      stats: ["FastAPI", "BACnet", "OT Security", "Compliance"],
+      accent: "obsidian",
+    },
   ],
 };
