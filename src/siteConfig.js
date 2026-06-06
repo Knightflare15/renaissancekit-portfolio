@@ -1,7 +1,7 @@
 export const siteConfig = {
   brandName: "Renaissance Kit",
   domain: "renaissancekit.in",
-  domainUrl: "https://renaissancekit.in",
+  domainUrl: "https://www.renaissancekit.in",
   instagramHandle: "renaissance_kit",
   instagramUrl: "https://instagram.com/renaissance_kit",
   status: "Portfolio atelier",
@@ -37,7 +37,7 @@ export const siteConfig = {
   contactLinks: [
     {
       label: "renaissancekit.in",
-      href: "https://renaissancekit.in",
+      href: "https://tmason.azurewebsites.net/",
       style: "primary",
     },
     {
@@ -48,12 +48,12 @@ export const siteConfig = {
   ],
   projects: [
     {
-      key: "brix",
+      key: "quattro",
       category: "Realtime game systems",
-      title: "Brix",
+      title: "Quattro",
       summary:
         "A server-authoritative co-op Tetris project built around realtime play, social systems, and a product-grade multiplayer backend.",
-      href: "https://github.com/Knightflare15/Tetris",
+      href: "",
       cta: "Open Tetris project",
       stats: ["React", "TypeScript", "Node.js", "Socket.IO"],
       accent: "obsidian",
