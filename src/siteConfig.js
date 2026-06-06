@@ -4,16 +4,15 @@ export const siteConfig = {
   domainUrl: "https://www.renaissancekit.in",
   instagramHandle: "renaissance_kit",
   instagramUrl: "https://instagram.com/renaissance_kit",
-  status: "Software projects by Aryan",
+  status: "Still Becoming.",
   hero: {
     title: "Software, games, and AI projects.",
-    summary:
-      "A small portfolio for the projects I care about most right now: a co-op puzzle game, a retrieval-based investigation app, and a Unity project in progress.",
+    summary: "Fun projects trying to spin boring concepts into fun games to keep myself engaged and learn.",
     primaryLabel: "Explore Projects",
     secondaryLabel: "Visit Instagram",
   },
   intro:
-    "The logo sets the tone. The site keeps the rest simple: clean layout, clear links, and enough personality without getting in the way.",
+    "Have a look for yourself",
   approach: [
     {
       label: "Built with",

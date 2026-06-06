@@ -79,7 +79,7 @@ function App() {
         <section className="section" id="work">
           <div className="section__heading">
             <p className="eyebrow">Selected work</p>
-            <h2>Projects worth opening, not just listing.</h2>
+            <h2>A few things I spun up in my free time</h2>
           </div>
 
           <div className="project-grid">
@@ -113,15 +113,14 @@ function App() {
         <section className="section atelier" id="about">
           <div className="section__heading">
             <p className="eyebrow">About</p>
-            <h2>Built around the logo. Kept simple on purpose.</h2>
+            <h2>An easy way to consolidate my projects.</h2>
           </div>
 
           <div className="atelier__grid">
             <article className="panel panel--statement">
               <p>
-                The original static page felt too generic. This version stays visual, but the copy is more direct
-                and the structure is easier to maintain. The goal is to make the work easy to inspect and the
-                links easy to update.
+                It was getting really disjointed with each project having its own visual 
+                identity so this portfolio site ties them all together.
               </p>
             </article>
 
