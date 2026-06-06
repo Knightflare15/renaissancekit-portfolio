@@ -37,7 +37,7 @@ export const siteConfig = {
   contactLinks: [
     {
       label: "renaissancekit.in",
-      href: "https://tmason.azurewebsites.net/",
+      href: "https://www.renaissancekit.in",
       style: "primary",
     },
     {
@@ -53,7 +53,7 @@ export const siteConfig = {
       title: "Quattro",
       summary:
         "A server-authoritative co-op Tetris project built around realtime play, social systems, and a product-grade multiplayer backend.",
-      href: "",
+      href: "tmason.azurewebsites.net",
       cta: "Open Tetris project",
       stats: ["React", "TypeScript", "Node.js", "Socket.IO"],
       accent: "obsidian",
